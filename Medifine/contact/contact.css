@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* designing  the navigation menu */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+img[alt="logo"] {
+    scale: 0.8;
+    cursor: pointer;
+}
+
+nav ul li:hover a {
+    text-decoration: underline;
+}
+
+/* designing the contact form */
+
+main {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.contact-form {
+    width: 400px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #f0f4f5;
+    padding: 0px 20px 0px 15px;
+    cursor: pointer;
+}
+
+.contact-form h1 {
+    font-size: 35px;
+    font-weight: 900;
+    background-color: #f0f4f5;
+    margin-left: 18%;
+}
+
+.contact-form label {
+    font-size: 20px;
+    font-weight: 880;
+    background-color: #f0f4f5;
+    margin-top: 10px;
+}
+
+.contact-form input {
+    border: none;
+    border-radius: 10px;
+    padding: 4px 188px 4px 5px;
+    margin-bottom: 20px;
+} 
+
+button {
+    background-color: #22bc7e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 6px 99px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 14%;
+}
+
+button:hover {
+    background-color: #07f797;
+}
+
+input[type="message"] {
+    padding: 30px 95px;
+}
+
+
+

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+img[alt="logo"] {
+  scale: 0.8;
+  cursor: pointer;
+}
+
+nav ul li:hover a {
+  text-decoration: underline;
+}
+
+/* designing the main section*/
+
+main{
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.about h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #22bc7e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.achievement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+}
+
+.achievement-card {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.achievement-card span {
+    color: #22bc7e;
+    font-size: 21px;
+    font-weight: 850;
+}
+
+.achievement-card p {
+    font-size: 20px;
+    font-weight: 800;
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* designing the navigation bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+img[alt="logo"]{
+    scale: 0.8;
+    cursor: pointer;
+}
+
+nav ul li:hover a {
+    text-decoration: underline;
+}
+
+/* designing the main section  */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main div {
+    width: 50%;
+}
+
+.left-main {
+    margin-left: 5%;
+    position: relative;
+}
+
+.topAngle{
+    width: 25px;
+}
+
+.left-main h1{
+    font-size: 82px;
+}
+
+.left-main p {
+    color: #aba399;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.bottomAngle {
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 80%;
+    top: -60px;
+    right: -25px;
+    z-index: 1;
+    background-color: transparent;
+}
+
+.mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+
+.left-main button {
+    background-color: #20bc7e;
+    color: white;
+    padding: 15px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.left-main button:hover {
+    background-color:white;
+    color: #20bc7e;
+    border: 2px solid #20bc7e;
+    transition: 0.1s;
+}
+  
+/* designing the right main */
+
+.greenBox,
+.yellowBox {
+    position: absolute;
+    right: 0;
+}
+
+.greenBox {
+    width: 32%;
+    bottom: 30px;
+    background-color: transparent;
+}
+
+.yellowBox {
+    width: 28%;
+    bottom: 50px;
+    background-color: transparent;
+}
+
+.doctor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+    background-color: transparent;
+
+}
